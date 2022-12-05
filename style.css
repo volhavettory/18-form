@@ -1,0 +1,22 @@
+form {
+    margin: 50px;
+    display: block;
+}
+
+a,
+h3 {
+    margin: 50px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+/* для валидации  */
+input:valid {
+    border: 1px solid black;
+}
+
+input:invalid {
+    border: 3px solid red
+}
